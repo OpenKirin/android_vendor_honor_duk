@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
     cr4_asic.bin \
     cr4_regmem.bin \
     cr4_regmem_u1.bin \
-    ram_reg_test_cfg \
     wifi_cfg
 
 $(call inherit-product, vendor/honor/duk/duk-vendor-blobs.mk)

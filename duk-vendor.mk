@@ -28,4 +28,15 @@ PRODUCT_PACKAGES += \
     oeminfo_nvm_server \
     teecd
 
+PRODUCT_PACKAGES += \
+    bfgx_and_wifi_cfg \
+    bfgx_cfg \
+    CPU_RAM_SCHED.bin \
+    CPU_RAM_WBS.bin \
+    cr4_asic.bin \
+    cr4_regmem.bin \
+    cr4_regmem_u1.bin \
+    ram_reg_test_cfg \
+    wifi_cfg
+
 $(call inherit-product, vendor/honor/duk/duk-vendor-blobs.mk)

@@ -96,7 +96,7 @@ LOCAL_MODULE       := bfgx_and_wifi_cfg
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/bfgx_and_wifi_cfg
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -104,7 +104,7 @@ LOCAL_MODULE       := bfgx_cfg
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/bfgx_cfg
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -112,7 +112,7 @@ LOCAL_MODULE       := CPU_RAM_SCHED.bin
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/CPU_RAM_SCHED.bin
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -120,7 +120,7 @@ LOCAL_MODULE       := CPU_RAM_WBS.bin
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/CPU_RAM_WBS.bin
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -128,7 +128,7 @@ LOCAL_MODULE       := cr4_asic.bin
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/cr4_asic.bin
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -136,7 +136,7 @@ LOCAL_MODULE       := cr4_regmem.bin
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/cr4_regmem.bin
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -144,7 +144,7 @@ LOCAL_MODULE       := cr4_regmem_u1.bin
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/cr4_regmem_u1.bin
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -152,7 +152,7 @@ LOCAL_MODULE       := ram_reg_test_cfg
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/ram_reg_test_cfg
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -160,7 +160,7 @@ LOCAL_MODULE       := wifi_cfg
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := root/wifi_cfg
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
+LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 endif
